@@ -1,0 +1,94 @@
+@font-face{
+	font-family:amor;
+	src:url(Estilo/AmoreMIO.ttf)
+	format("truetype");
+	}
+body{
+	background:url(Estilo/Fondo.jpg);
+	}
+h1{
+	font-family:amor;
+	text-align:center;
+	font-size:350%;
+	margin-top:1.3%;
+	}
+h2{
+	margin-top:3%;
+	text-align:center;
+	font-family:amor;
+	}
+h3{
+	font-family:amor;
+	}
+.BotonesLogIn{
+	margin-left:25%;
+	}
+.log{
+	margin-top:-3%;
+	margin-left:21%;
+	}
+.BotonesLogOut{
+	margin-left:37%;
+	}
+.lastmembers{
+	width:25%;
+	margin-top:1%;
+	margin-left:37%;
+	height:300px;
+	overflow-y:scroll;
+	}
+.Imagen{
+	max-width:98%;
+	}
+.formSign{
+	margin-left:42%;
+	margin-top:13%;
+	}
+.formLog{
+	margin-left:42%;
+	margin-top:13%;
+	}
+.ImgViewProf{
+	width:35%;
+	margin-bottom:3%;
+	}
+.ViewProf{
+	margin-left:40%;
+	margin-top:7%;
+	}
+.ImgEditProf{
+	width:23%;
+	margin-bottom:1%;
+	margin-left:38%;
+	}
+.formEdit{
+	margin-left:38%;
+	}
+footer{
+	text-align:center;
+	position:relative;
+	}
+.formulario{
+	width:25%;
+	margin-top:1%;
+	margin-left:37%;
+	height:345px;
+	overflow-y:scroll;
+	}
+.formulario_interno{
+	margin-bottom:10%;
+	}
+.boton_formulario{
+	width:150px;
+	height:35px;
+	margin-left:45%;
+	}
+.Imagenes{
+	width:20%;
+	}
+.Tabla{
+	margin-left: 40%;
+	}
+.Correspondencia{
+	margin-left: 40%;
+	}

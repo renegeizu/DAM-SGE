@@ -1,0 +1,43 @@
+@font-face{
+	font-family:hero;
+	src:url(Nightmare_Hero_Normal.ttf);
+	format("truetype");
+	}
+body{
+	text-align:center;
+	background:url(Guitar.jpg);
+	}
+h1{
+	font-family:hero;
+	font-size:50px;
+	}
+h2{
+	font-family:hero;
+	font-size:35px;
+	}
+h3{
+	font-family:hero;
+	font-size:25px;
+	}
+.Principal{
+	height:300px;
+	overflow-y:scroll;
+	width:450px;
+	margin-left:450px;
+	background:url(Fondo.jpg);
+}
+.Secundario{
+	width:35%;
+	float:left;
+}
+.Terciario{
+	width:60%;
+	margin-top:0px;
+	height:100px;
+	float:right;
+}
+.separador{
+	clear:both;
+	width:445px;
+	height:10px;
+}

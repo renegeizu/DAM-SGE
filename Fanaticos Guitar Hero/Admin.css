@@ -1,0 +1,26 @@
+@font-face{
+	font-family:hero;
+	src:url(Nightmare_Hero_Normal.ttf);
+	format("truetype");
+	}
+body{
+	text-align:center;
+	background:url(Guitar.jpg);
+	}
+.Titulos{
+	text-align:center;
+	color:#F00;
+	}
+div{
+	width:770px;
+	overflow:scroll;
+	height:490px;
+	margin-left:290px;
+	}
+table{
+	width:750px;
+	}
+h1{
+	font-family:hero;
+	font-size:50px;
+	}

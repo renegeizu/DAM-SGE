@@ -1,0 +1,19 @@
+<?php
+	if(!isset($_SESSION['nombreUser'])){
+		if(!isset($_COOKIE['nombreUser'])){
+			session_start();
+		}else{
+			$_SESSION['nombreUser']=$_COOKIE['nombreUser'];
+			$_SESSION['nombreApellidos']=$_COOKIE['nombreApellidos'];
+			$_SESSION['IP']=$_COOKIE['IP'];
+			$_SESSION['Agent']=$_COOKIE['Agent'];
+			session_start();
+		}
+	}else{
+		if($_SESSION['HTTP_USER_AGENT']!=$_SESSION['Agent'] && $_SESSION['REMOTE_ADDR']!=$_SESSION['IP']){
+			require_once('LogOut.php');
+		}else{
+			session_start();
+		}
+	}
+?>
